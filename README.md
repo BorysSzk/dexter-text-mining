@@ -1,9 +1,7 @@
-# "Dexter" text mining analysis
+# *Dexter* text mining analysis
 
-## What is "Dexter" text mining analysis?
-"Dexter" Text Mining Analysis is an R-based application that explores and analyzes the scripts of Season 1 (for more info, see the `Disclaimer` below) using a wide range of text mining packages 
-- from basic ones like tm and tidytext, to more advanced tools like topicmodels and skmeans.
-The project also features a local Shiny web app that showcases all the visualizations from the analysis, along with explanations and interpretations of key findings.
+## What is *Dexter* text mining analysis?
+"Dexter" Text Mining Analysis is an R-based application that explores and analyzes the scripts of season 1 *Dexter* TV series (for more info, see the `Disclaimer` below) using a wide range of text mining packages - from basic ones like tm and tidytext, to more advanced tools like topicmodels and skmeans. The project also features a local Shiny web app that showcases all the visualizations from the analysis, along with explanations and interpretations of key findings.
 
 Learn the basics of text mining through:
 - Word clouds and word frequency analysis  
@@ -43,7 +41,7 @@ Run the following command to install the packages:
 source("install-packages.R")
 ```
 
-## Running "Dexter" text mining analysis
+## Running *Dexter* text mining analysis
 1. Make sure your working directory is the project directory.
 2. Load the project workspace, in the RStudio console with:
 ```sh
