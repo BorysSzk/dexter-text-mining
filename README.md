@@ -14,9 +14,9 @@ And one more thing: *tonight's the night*...
 
 ## Build Prerequisites
 *Dexter* text mining analysis's build environment requires a couple of R packages in order to work, but before that make sure that you have downloaded and using:
-- **R 3.6.0+** from [CRAN](https://cran.rstudio.com/) (located at the top, in the `Download and install R` tab);
-- **RStudio Desktop** from [Posit](https://posit.co/download/rstudio-desktop/) (in the middle of the website you can find downloads for Windows, macOS, Ubuntu etc.);
-- **Java Development Kit (JDK ≥ 8)** - required for `qdap` R package
+- R 3.6.0+ from [CRAN](https://cran.rstudio.com/) (located at the top, in the `Download and install R` tab);
+- RStudio Desktop from [Posit](https://posit.co/download/rstudio-desktop/) (in the middle of the website you can find downloads for Windows, macOS, Ubuntu etc.);
+- Java Development Kit (JDK ≥ 8) - required for `qdap` R package
 > [!NOTE]
 > Installing the JDK is not required to run the Shiny web app. If you're only interested in viewing the app's content, this step is optional.
 
