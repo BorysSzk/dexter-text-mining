@@ -1,7 +1,7 @@
 # *Dexter* text mining analysis
 
 ## What is *Dexter* text mining analysis?
-"Dexter" Text Mining Analysis is an R-based application that explores and analyzes the scripts of season 1 *Dexter* TV series (for more info, see the `Disclaimer` below) using a wide range of text mining packages - from basic ones like tm and tidytext, to more advanced tools like topicmodels and skmeans. The project also features a local Shiny web app that showcases all the visualizations from the analysis, along with explanations and interpretations of key findings.
+"Dexter" Text Mining Analysis is an R-based application that explores and analyzes the scripts of *Dexter* TV series (mainly season 1) using a wide range of text mining packages - from basic ones like tm and tidytext, to more advanced tools like topicmodels and skmeans. The project also features a local Shiny web app that showcases all the visualisations from the analysis, along with explanations and interpretations of key findings.
 
 Learn the basics of text mining through:
 - Word clouds and word frequency analysis  
