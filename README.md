@@ -27,9 +27,15 @@ git clone https://github.com/BorysSzk/dexter-text-mining.git
 ```
 If you don't have Git installed, you can download the repository as a ZIP file from the repository page.
 
-After cloning/downloading the repository, set your working directory in R to the project folder (`dexter-text-mining-main` folder) in R studio console, for example:
-```sh
-setwd(C:/Users/user1/Desktop/dexter-text-mining-main)
+After cloning/downloading the repository, set your working directory in R to the main project folder (the one containing `ui.R`, `server.R`, etc.) in R studio console, for example:
+```r
+setwd('C:/Users/user1/Desktop/dexter-text-mining-main')
+```
+If you downloaded the `.zip` file, GitHub may nest the project folder like this:  
+`C:/Users/YourName/Desktop/dexter-text-mining-main/dexter-text-mining-main/`  
+In that case, make sure to set your working directory to the inner `dexter-text-mining-main` folder, for example:
+```r
+setwd('C:/Users/user1/Desktop/dexter-text-mining-main/dexter-text-mining-main')
 ```
 
 > [!IMPORTANT]
@@ -37,18 +43,18 @@ setwd(C:/Users/user1/Desktop/dexter-text-mining-main)
 
 If you are interested in the whole project, including R code of the text mining:
 Run the following command to install the packages:
-```sh
+```r
 source("install-packages.R")
 ```
 
 ## Running *Dexter* text mining analysis
 1. Make sure your working directory is the project directory.
 2. Load the project workspace, in the RStudio console with:
-```sh
+```r
 load('project.RData')
 ```
 3. Next, start the web app, in the RStudio console run:
-```sh
+```r
 shiny::runApp()
 ```
 The app will launch at [http://127.0.0.1:7216](http://127.0.0.1:7216).
