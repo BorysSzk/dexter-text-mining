@@ -62,8 +62,8 @@ The app will launch at [http://127.0.0.1:7216](http://127.0.0.1:7216).
 > The app will open in the RStudio browser - at the top of the browser there is a button `Open in browser` which will open the web app in the default browser of your system
 
 ## Disclaimer
-This project is a non-commercial, educational analysis of publicly available scripts from Season 1 of the TV series *Dexter*.  
-The logo and audio used in this project are the intellectual property of their respective owners (Showtime, original creators, and composers).  
+This project is a non-commercial, educational analysis of publicly available scripts from Season 1 of the TV series *Dexter*.
+The logo and audio used in this project are the intellectual property of their respective owners (Showtime, original creators, and composers).
 They are included here strictly for illustrative and educational purposes.
 
 No copyright infringement is intended. This project is not affiliated with, endorsed by, or sponsored by Showtime or any related entities.
