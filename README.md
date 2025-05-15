@@ -1,7 +1,7 @@
 # *Dexter* text mining analysis
 
 ## What is *Dexter* text mining analysis?
-"Dexter" Text Mining Analysis is an R-based application that explores and analyzes the scripts of *Dexter* TV series (mainly season 1) using a wide range of text mining packages - from basic ones like tm and tidytext, to more advanced tools like topicmodels and skmeans. The project also features a local Shiny web app that showcases all the visualisations from the analysis, along with explanations and interpretations of key findings.
+*Dexter* Text Mining Analysis is an R-based application that explores and analyzes the scripts of *Dexter* TV series (mainly season 1) using a wide range of text mining packages - from basic ones like tm and tidytext, to more advanced tools like topicmodels and skmeans. The project also features a local Shiny web app that showcases all the visualisations from the analysis, along with explanations and interpretations of key findings.
 
 Learn the basics of text mining through:
 - Word clouds and word frequency analysis  
@@ -13,7 +13,7 @@ Learn the basics of text mining through:
 And one more thing: *tonight's the night*...
 
 ## Build Prerequisites
-"Dexter" text mining analysis's build environment requires a couple of R packages in order to work, but before that make sure that you have downloaded and using:
+*Dexter* text mining analysis's build environment requires a couple of R packages in order to work, but before that make sure that you have downloaded and using:
 - **R 3.6.0+** from [CRAN](https://cran.rstudio.com/) (located at the top, in the `Download and install R` tab);
 - **RStudio Desktop** from [Posit](https://posit.co/download/rstudio-desktop/) (in the middle of the website you can find downloads for Windows, macOS, Ubuntu etc.);
 - **Java Development Kit (JDK ≥ 8)** - required for `qdap` R package
@@ -33,9 +33,9 @@ setwd(C:/Users/user1/Desktop/dexter-text-mining-main)
 ```
 
 > [!IMPORTANT]
-> **If you are only interested in running the Shiny web app (showcase of the analysis)** go to `Running "Dexter" text mining analysis` part down below
+> If you are only interested in running the Shiny web app (showcase of the analysis) go to `Running *Dexter* text mining analysis` part down below
 
-**If you are interested in the whole project, including R code of the text mining**:
+If you are interested in the whole project, including R code of the text mining:
 Run the following command to install the packages:
 ```sh
 source("install-packages.R")
