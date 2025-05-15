@@ -27,7 +27,6 @@ library(fpc)
 library(clue)
 library(lemon)
 library(ggdendro)
-library(dendextend)
 
 ### Zamiana pdfów na pliki .txt ###
 
